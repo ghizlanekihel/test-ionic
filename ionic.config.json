@@ -1,0 +1,7 @@
+{
+  "name": "MyTower_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
