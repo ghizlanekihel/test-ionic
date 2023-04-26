@@ -11,4 +11,14 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
 })
 export class Tab1Page {
   constructor() {}
+
+  compteur: number = 0;
+
+  incrementer() {
+    this.compteur++;
+  }
+
+  reinitialiser() {
+    this.compteur = 0;
+  }
 }

@@ -1,17 +1,35 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Test Application </ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h1>Images</h1>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <img src="../../assets/images/img1.jpg" width="500" height="200" />
+          <ion-card-header>
+            <ion-card-title>Image 1</ion-card-title>
+          </ion-card-header>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <img src="../../assets/images/img2.jpg" width="500" height="200"/>
+          <ion-card-header>
+            <ion-card-title>Image 2</ion-card-title>
+          </ion-card-header>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</div>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+
+

@@ -1,17 +1,17 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+<ion-header>
+  
+  <ion-toolbar color="primary">
+    <ion-title>Test Application </ion-title>
   </ion-toolbar>
+
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-content>
+<ion-card>
+<ion-card-content>
+  <h2>Compteur : {{ compteur }}</h2>
+  <ion-button (click)="incrementer()">Incrémenter</ion-button>
+  <ion-button (click)="reinitialiser()">Réinitialiser</ion-button>
+</ion-card-content>
+</ion-card>
 </ion-content>
